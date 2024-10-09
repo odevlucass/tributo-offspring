@@ -20,4 +20,22 @@ main {
 
 .introducao h1 {
     text-align: center;
+    margin: 26px 0;
+    font-size: 40px;
+}
+
+.introducao p {
+    text-align: center;
+    margin: 16px;
+    font-style: italic;
+}
+
+picture {
+    display: flex;
+    justify-content: center
+}
+
+img {
+    width: 70%;
+    margin: auto;
 }
