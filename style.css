@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 90%;
+    margin: 50px 0;
+    padding: 20px 50px;
+    background: white;
+}
+
+.introducao h1 {
+    text-align: center;
+    margin: 26px 0;
+    font-size: 40px;
+}
+
+.introducao p {
+    text-align: center;
+    margin: 16px;
+    font-style: italic;
+}
+
+picture {
+    display: flex;
+    justify-content: center
+}
+
+img {
+    width: 70%;
+    margin: auto;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+.anos-iniciais {
+    margin-bottom: 30px;
+}
+
+.container-comentarios {
+    margin: 20px 0;
+    padding: 30px;
+    background: #ddd;
+}
+
+.container-comentarios .comentario {
+    margin: 30px 40px;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container-comentarios p {
+    font-style: italic;
+}
+
+ul {
+    margin: 16px 0;
+    padding: 0 0 0 40px;
+}
+
+li {
+    height: 30px;
+}
+
+.imagem-banda p {
+    margin-top: 4px;
+    text-align: center;
+    font-weight: 700;
+}
+
+hr {
+    border-top: 1px dashed #ddd;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+    img {
+        width: 200px;
+        margin: auto;
+    }
+
+    .container-comentarios .comentario {
+        font-size: 14px;
+        margin: 0 0 24px 0;
+    }
+
+    ul {
+        padding: 0 0 0 20px;
+    }
+
+    li {
+        padding: 30px 0;
+    }
+}
